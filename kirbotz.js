@@ -5667,8 +5667,8 @@ case 'ytmp4': case 'ytvideo': {
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 if (!isPrem) return replyPremium(mess.premium)
 let { ytv } = require('./Lib/y2mate')
-if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`
-let quality = args[1] ? args[1] : '360p'
+if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 1080p`
+let quality = args[1] ? args[1] : '1080p'
 let media = await ytv(text, quality)
 if (media.filesize >= 100000) return replyNya('File Melebihi Batas '+util.format(media))
 kirbotz.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `✇ Title : ${media.title}\n✇ File Size : ${media.filesizeF}\n✇ Url : ${isUrl(text)}\n✇ Ext : MP4\n✇ Resolusi : ${args[1] || '360p'}` }, { quoted: fakekirbotz })
