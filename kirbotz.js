@@ -496,7 +496,7 @@ const fakekirbotz = {
   message: {
     imageMessage: {
       mimetype: 'image/jpeg',
-      caption: 'Created By BloodSword',
+      caption: 'Created By IRFANFF9',
       jpegThumbnail: ppnyauser,
       viewOnce: true
     }
@@ -815,7 +815,7 @@ async function replyTemplate(teks) {
                                         	  ]                 
                        const buttonMessage = { 
                                     text: teks, 
-                                    footer: "Bot By BloodSword", 
+                                    footer: "Bot By IRFANFF9", 
                                     templateButtons: buttonsDefault, 
                                     image: {url: thumb}                                   
                                                }
@@ -828,7 +828,7 @@ async function replyOwnerr(teks) {
                                         	  ]                 
                        const buttonMessage = { 
                                     text: teks, 
-                                    footer: "Bot By BloodSword", 
+                                    footer: "Bot By IRFANFF9", 
                                     templateButtons: buttonsDefault, 
                                     image: {url: thumb}                                   
                                                }
@@ -864,7 +864,7 @@ async function replyPremium(teks) {
                                         	  ]                 
                        const buttonMessage = { 
                                     text: teks, 
-                                    footer: "Bot By BloodSword", 
+                                    footer: "Bot By IRFANFF9", 
                                     templateButtons: buttonsDefault, 
                                     image: {url: thumb}                                   
                                                }
@@ -873,10 +873,10 @@ async function replyPremium(teks) {
                 
 async function sendBut5nya(teks) {
 var button = [
-{"urlButton": {"displayText": "MyOwner🔥","url": `https://wa.me/62881036690566`}},
+{"urlButton": {"displayText": "MyOwner🔥","url": `https://wa.me/6289510497533`}},
 {"quickReplyButton": {"displayText": "Sewabot","id": 'sewabot'}},
 {"quickReplyButton": {"displayText": "Donasi","id": 'donasi'}},
-{"quickReplyButton": {"displayText": "Status Bot BloodSword","id": 'ping'}}
+{"quickReplyButton": {"displayText": "Status Bot IRFANFF9","id": 'ping'}}
 		]
 kirbotz.sendMessage(from, { caption: teks, location: { jpegThumbnail: thumb }, templateButtons: button, footer: `Owner Bot : ${owner.length}`, mentions: [sender] })
         .catch ((err) => reply(err))
@@ -922,7 +922,7 @@ if (!isCreator) return reply(mess.owner)
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 if (!args[0]) return reply("Mau ngambil case apa?")
 try {
-reply(`// Created By BloodSword\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./kirbotz.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
+reply(`// Created By IRFANFF9\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./kirbotz.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
 } catch {
 reply("Case Tidak Ditemukan")
 }
@@ -1166,7 +1166,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 }]
 }
@@ -1198,7 +1198,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 }]
 }
@@ -1230,7 +1230,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 }]
 }
@@ -1262,7 +1262,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 }]
 }
@@ -1294,7 +1294,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 }]
 }
@@ -1326,7 +1326,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 }]
 }
@@ -1358,7 +1358,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 }]
 }
@@ -1608,17 +1608,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1643,17 +1643,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1678,17 +1678,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1713,17 +1713,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1748,17 +1748,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1834,7 +1834,7 @@ kirbotz.sendContact(m.chat, owner, m)
 }
 break
 case 'credits':
-const sokl = "62881036690566@s.whatsapp.net"
+const sokl = "6289510497533@s.whatsapp.net"
 teksits = `「 *Thanks To* 」
 ♕ Akira @${sokl.split("@")[0]}`
 kirbotz.sendMessage(m.chat, { image: ppnyauser, caption: teksits, contextInfo: {
@@ -1846,8 +1846,8 @@ kirbotz.sendMessage(m.chat, { image: ppnyauser, caption: teksits, contextInfo: {
 "mediaType": 2, 
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
-"mediaUrl": 'https://chat.whatsapp.com/CswK4kvQD1u7SfSmsYfMHZ',
-"sourceUrl": 'https://chat.whatsapp.com/CswK4kvQD1u7SfSmsYfMHZ'
+"mediaUrl": 'https://chat.whatsapp.com/JZObD0euUnF2UknDp1UDn8',
+"sourceUrl": 'https://chat.whatsapp.com/JZObD0euUnF2UknDp1UDn8'
 }}}, { quoted: fakekirbotz })
 break
 case 'quest':
@@ -1977,18 +1977,18 @@ case 'menu':
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 let timestamp = speed()
 let latensi = speed() - timestamp
-const botzkir = "62881036690566@s.whatsapp.net"
+const botzkir = "6289510497533@s.whatsapp.net"
 var rndm = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var bykir = rndm[Math.floor(Math.random() * rndm.length)]
 mbc = `Hai Kak @${sender.split("@")[0]} 
-BloodSword Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.`
+IRFANFF9 Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.`
 let buttons = [
 {buttonId: `${prefix}rpgmenu`, buttonText: {displayText: 'Rpg Menu'}, type: 1},
 {buttonId: `${prefix}allmenu`, buttonText: {displayText: 'All Menu'}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./Image/memeknya.jpg'), 
-fileName: `Bot By BloodSword`, 
+fileName: `Bot By IRFANFF9`, 
 mimetype: `application/${bykir}`,
 jpegThumbnail: await reSize(ppnyauser, 200, 200),
 caption: mbc,
@@ -2020,7 +2020,7 @@ kirbotz.sendMessage(m.chat, buttonMessage, { quoted: {
 				    itemCount: 99999999,
 				    status: 1,
 				    surface: 1,
-				    message: 'Created By BloodSword',
+				    message: 'Created By IRFANFF9',
 				    orderTitle: '999999999', 
 				    sellerJid: `0@s.whatsapp.net` 
 				   }
@@ -2815,7 +2815,7 @@ displayText: 'M E N U',
 id: `${prefix}menu`
 }
 }]
-kirbotz.send5Loc(m.chat, `On Kak Silahkan Pencet Button Di Bawah\nJika Button Tidak Kelihatan Ketik ${prefix}menu`, `Created By BloodSword`, global.thumb, btn)
+kirbotz.send5Loc(m.chat, `On Kak Silahkan Pencet Button Di Bawah\nJika Button Tidak Kelihatan Ketik ${prefix}menu`, `Created By IRFANFF9`, global.thumb, btn)
 }
 break
 case 'userkirbotz':{
@@ -2834,7 +2834,7 @@ ules = `${ucapanWaktu} 𝐊𝐚𝐤 *${pushname}*
       *sᴀɴᴋsɪ : ʙʟᴏᴄᴋ ᴘᴇʀᴍᴀɴᴇɴ*
 
 𒍮 𝑶𝒘𝒏𝒆𝒓 𝑩𝒐𝒕𝒛 ↓↓
-_*https://wa.me/62881036690566*_`
+_*https://wa.me/6289510497533*_`
 let message = await prepareWAMessageMedia({ image: fs.readFileSync('./Image/kirbotz.jpg') }, { upload: kirbotz.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 templateMessage: {
@@ -2898,10 +2898,10 @@ if (/webp/.test(mime)) {
 kirbotz.sendMessage(i, { sticker: { url: media } }, { quoted: m })
 } else if (/image/.test(mime)) {
 let junn = `*_BROADCAST IMAGE_*${text ? '\n\n' + text : ''}`
-kirbotz.send5ButImg(i, junn, `Created By BloodSword`, buffer, butoon)
+kirbotz.send5ButImg(i, junn, `Created By IRFANFF9`, buffer, butoon)
 } else if (/video/.test(mime)) {
 let junn = `*_BROADCAST VIDIO_*${text ? '\n\n' + text : ''}`
-kirbotz.send5Vid(i, junn, `Created By BloodSword`, buffer, butoon)
+kirbotz.send5Vid(i, junn, `Created By IRFANFF9`, buffer, butoon)
 } else if (/audio/.test(mime)) {
 kirbotz.sendMessage(i, {audio: buffer, mimetype: 'audio/mpeg'}, { quoted : m })
 } else {
@@ -2995,9 +2995,9 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "firstImageId": 1,
 "salePriceAmount1000": "1000",
 "retailerId": `Nomor Owner Di Atas`,
-"url": `https://wa.me/62881036690566`
+"url": `https://wa.me/6289510497533`
 },
-"businessOwnerJid": "62881036690566@s.whatsapp.net",
+"businessOwnerJid": "6289510497533@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: lep  })
 kirbotz.relayMessage(num, catalog.message, { messageId: catalog.key.id })
@@ -3042,9 +3042,9 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "firstImageId": 1,
 "salePriceAmount1000": "1000",
 "retailerId": `Nomor Owner Di Atas`,
-"url": `https://wa.me/62881036690566`
+"url": `https://wa.me/6289510497533`
 },
-"businessOwnerJid": "62881036690566@s.whatsapp.net",
+"businessOwnerJid": "6289510497533@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: lep  })
 kirbotz.relayMessage(num, catalog.message, { messageId: catalog.key.id })
@@ -3069,7 +3069,7 @@ if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah 
                             }, {
                                 callButton: {
                                     displayText: 'Nomor Owner',
-                                    phoneNumber: '62881036690566'
+                                    phoneNumber: '6289510497533'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3138,17 +3138,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -4100,17 +4100,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4255,17 +4255,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4313,17 +4313,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4349,17 +4349,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -4411,17 +4411,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4470,17 +4470,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4503,17 +4503,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4613,17 +4613,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4668,17 +4668,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4712,17 +4712,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4772,17 +4772,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4809,17 +4809,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4850,17 +4850,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -5098,17 +5098,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -5130,17 +5130,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -5163,17 +5163,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -5210,8 +5210,8 @@ Note : *Keuntungan Sewabot & Premium?*
 Bisa Masukin Bot Ke Group & Bisa Gunain Fitur Premium Tanpa Batas
 
 List Payment
-GOPAY : 0877-0504-8235
-OVO : 0877-0504-8235
+GOPAY : 0895-1049-7533
+OVO : 0895-1049-7533
 QRIS ALL : Scan Di Atas
 
 Note : MAU SEWA & PREM APA MAU LIAT DOANG ANJING
@@ -5222,12 +5222,12 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: sewbot,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [
 {
 urlButton: {
-displayText: 'Owner KirBotz',
-url: 'https://wa.me/62881036690566'
+displayText: 'Owner IRFANBOT',
+url: 'https://wa.me/6289510497533'
 }
 }]
 }
@@ -5239,8 +5239,8 @@ break
 case 'payment': case 'donasi': {
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 donte = `_MAU BAYAR YA KAK_
-GOPAY : 0877-0504-8235
-OVO : 0877-0504-8235
+GOPAY : 0895-1049-7533
+OVO : 0895-1049-7533
 QRIS ALL : Scan Di Atas
 
 *NOTE :*
@@ -5253,17 +5253,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: donte,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 }]
 }
@@ -5894,7 +5894,7 @@ Upload : ${anu.published}
 Views : ${anu.views}
 Link Download : 
 ${anu.url}`,
-hydratedFooterText: 'Jangan Lupa Subscribe YT : KirBotz`',
+hydratedFooterText: '© IRFANFF9',
 hydratedButtons: []
 }
 }
@@ -6124,12 +6124,12 @@ contextInfo: {
 "mentionedJid": [sender],
 "externalAdReply": {
 "showAdAttribution": true,
-"title": 'Subscribe YT : KirBotz`', 
+"title": 'irfanff9', 
 "mediaType": 2, 
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
-"mediaUrl": 'https://chat.whatsapp.com/CswK4kvQD1u7SfSmsYfMHZ',
-"sourceUrl": 'https://chat.whatsapp.com/CswK4kvQD1u7SfSmsYfMHZ'
+"mediaUrl": 'https://chat.whatsapp.com/JZObD0euUnF2UknDp1UDn8',
+"sourceUrl": 'https://chat.whatsapp.com/JZObD0euUnF2UknDp1UDn8'
 }}
 }
 kirbotz.sendMessage(m.chat, buttonMessaage, { quoted: {
@@ -6143,7 +6143,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'Created By BloodSword',
+message: 'Created By IRFANFF9',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
@@ -6250,17 +6250,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: txt,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 }]
 }
@@ -6294,17 +6294,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: txt,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 }]
 }
@@ -6334,17 +6334,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: txt,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 }]
 }
@@ -6396,17 +6396,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Nih Kak`,
-hydratedFooterText: 'Created By BloodSword',
+hydratedFooterText: 'Created By IRFANFF9',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/kepoanjing'
+url: 'https://github.com/irfanff9'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62881036690566'
+url: 'https://wa.me/6289510497533'
 }
 }]
 }
@@ -6462,7 +6462,7 @@ rows: listBloxk
 
 const listMessage = {
 text: teskd,
-footer: "_Creator BloodSword_",
+footer: "_Creator IRFANFF9_",
 title: "     「 List Participants Blockir 」",
 buttonText: "List Blockir",
 mentions: await kirbotz.parseMention(teskd),
@@ -6496,7 +6496,7 @@ if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah 
 if (!isPrem) return replyPremium(mess.premium)
 if (!text) return reply(`Link Nya Kak???`)
 if (!isUrl(args[0]) && !args[0].includes('mediafire.com')) return reply(`Contoh ${prefix+command} https://www.mediafire.com/file/uoo686zvjoouwpr/SC_GRUB_OKEP_%255BNO_CURL_S2M%255D.zip/file`)
-const djej = "62881036690566@s.whatsapp.net"
+const djej = "6289510497533@s.whatsapp.net"
 const zk = await akira.mediafiredl(`${text}`)
 const mbc = `Nih Kak @${sender.split("@")[0]}\nDownload File Di Atas Yah\n\nUrl : ${zk.url}\nUrl² : ${zk.url2}\nFilename : ${zk.filename}\nFiletype : ${zk.filetype}\nExt : ${zk.ext}\nUpload : ${zk.aploud}\nFilesizeH : ${zk.filesizeH}\nFilesize : ${zk.filesize}`
 let buuttoons = [
