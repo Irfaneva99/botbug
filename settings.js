@@ -1,7 +1,7 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.premium = ['6285791677204']
+global.premium = ['6289510497533']
 global.packname = 'CEMAS KAU DEK BEK BEK BEK'
 global.author = '© IRFANFF9'
 global.sessionName = 'session'
